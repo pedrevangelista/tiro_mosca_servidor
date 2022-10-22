@@ -76,9 +76,9 @@ def jogoDoisClientes(client1, client2):
     qtdVitoriasJogador1 = 0
     qtdVitoriasJogador2 = 0
     while(True):
-        palpites1=["   voce    |  oponente "]
+        palpites1=["   Você    |  Oponente "]
         palpites1.append("-----------|-----------")
-        palpites2=["   voce    |   oponente"]
+        palpites2=["   Você    |  Oponente "]
         palpites2.append("___________|___________")
         caractereJoin = "\n"
         (valorClient1 ,valorClient2) =  obterValorInicialDosJogadores(client1, client2)
